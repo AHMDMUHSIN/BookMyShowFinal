@@ -1,0 +1,373 @@
+.navbar-brand img{
+    width: 150px;
+    margin-left: 100px;
+}
+.background{
+    background-color: black;
+    height: 100vh;
+  
+}
+.navbar{
+    background-color: #212122;
+   
+}
+.nav-left{
+    width: 40%;
+    
+}
+.navbar-search {
+    
+    height: 32px;
+    border-radius: 3px;
+    border: none;
+    font-size:15px;
+    border: 1px solid rgb(224, 222, 222) ;
+    width: 100%;
+}
+.nav-content{
+    display: flex;
+    justify-content: end;
+    
+    
+}
+.bar{
+    color: rgb(254, 251, 251);
+    font-size: 25px;
+}
+.navbar-toggler{
+    border: none;
+}
+.nav-right{
+   align-items: center;
+    display: flex;
+    justify-content: end;
+    width: 45%;
+    gap: 15px;
+    margin-right: 20px;
+    
+   
+    
+}
+.select select{
+    border: none;
+    text-decoration: none;
+    width: 100px;
+    background-color: #212122;
+    color: white;
+    
+    
+}
+.name{
+    color: white;
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    gap: 15px;
+    display: flex;
+    justify-content: end;
+
+    align-items: center;
+    font-size: 15px;
+    
+    
+    
+    width: 400px;
+}
+  .name a{
+    text-decoration: none;
+    color: white;
+}
+  .sign-in {
+    padding: 5px 10px;
+    height: 30px;
+    background-color: #f84464;
+    border-radius: 3px;
+    border: none;
+    color: white;
+    font-family: system-ui, -apple-system,"Segoe UI",
+      "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+  }
+  .sign-in a{
+    text-decoration: none;
+    color: white;
+  }
+  .sign-in a:hover{
+    color: white;
+  }
+
+  .banner{
+    position: absolute;
+   
+  }
+  .banner img{
+    width: 100vw;
+    height: 100vh;
+    
+  }
+  .poster{
+    position: relative;
+   
+    left: 9%;
+    color: aliceblue;
+   
+    height: 400px;
+    /* background-color: antiquewhite; */
+    
+  }
+  .poster img{
+    margin-top:4%;
+    border-radius: 5px;
+  }
+  .right img{
+    width:17%;
+  }
+  .right{
+    display: flex;
+  }
+  .left{
+    margin-top:4%;
+    margin-left: 30px;
+  }
+  .poster-sub{
+    
+    
+  }
+  .movie-name{
+    font-size: 27px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+  }
+  .movie-rating{
+    display: flex;
+    gap: 5px;
+    font-size: 25px;
+  }
+  .movie-rating img{
+    width: 20px;
+    
+  }
+  .left div{
+    margin-bottom: 10px;
+  }
+  .add-rating{
+    display: flex;
+    width: 350px;
+    background-color: rgb(214, 233, 251);
+    color: black;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+    border-radius: 6px;
+  }
+  .add-rating div{
+    margin-bottom: 0px;
+  }
+  .add-rating button{
+    background-color: aliceblue;
+    border: 1px solid white;
+    padding: 2px 12px;
+    border-radius: 3px;
+    border: 1px solid rgb(220, 218, 218);
+    
+  }
+  .languages {
+    display: flex;
+    width: 250px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+  }
+  .languages button{
+    background-color: aliceblue;
+    border: 1px solid white;
+    padding: 2px 32px;
+    border-radius: 3px;
+    border: 1px solid rgb(220, 218, 218);
+  }
+  .genere{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+  .delete{
+    
+  }
+  .delete button{
+    background-color: #f84464;
+    padding: 5px 20px;
+    border: 1px solid #f84464;
+    color: white;
+    font-size: 15px;
+    border-radius: 3px;
+    margin-top: 10px;
+  }
+  .description{
+   
+    width: 80%;
+    margin: auto;
+    
+    display: block;
+    
+  }
+  .description-head{
+    
+    font-size: 25px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    padding: 40px;
+  }
+  .description-content{
+    font-size: 17px;
+    font-weight: 500;
+   margin: 50px;
+    margin-top: 480px;
+  }
+
+
+
+  @media (min-width:300px) and (max-width:576px){
+    .nav-right i{
+        display: none;
+    } 
+    .nav-right{
+        width: 42%;
+        display: inline;
+        text-align: end;
+        padding-right: 10px;
+        margin-right: 10px;
+        margin-top: 10px;
+    }
+    .nav-right div{
+     margin-bottom: 10px;
+    }
+    .nav-content{
+       
+        display: flex;
+        justify-content: end;
+        background-color: white;
+        
+        
+    }  
+    .navbar-search {
+        display: none;
+    }
+    .name{
+        display: inline;
+        color: black;
+        
+    }
+    .name div{
+        margin-bottom: 10px;
+    }
+    .select select{
+        background-color: white;
+        color: black;
+        border: 1px solid rgb(193, 191, 191);
+        border-radius: 3px;
+        margin-bottom: 10px;
+        font-size: 14px;
+    }
+    .right{
+        display: inline;
+      }
+    
+    
+    
+}
+@media (min-width:576px) and (max-width:768px){
+    .nav-right i{
+        display: none;
+    } 
+    .nav-right{
+        width: 20%;
+        display: inline;
+        text-align: end;
+        padding-right: 10px;
+        margin-right: 10px;
+        margin-top: 10px;
+       
+        
+    }
+    .nav-right div{
+        margin-bottom: 10px;
+       }
+    .nav-content{
+       
+        display: flex;
+        justify-content: end;
+        background-color: white;
+        
+        
+    }  
+    .navbar-search {
+        display: none;
+    }
+    .name{
+        display: inline;
+        color: black;
+    }
+    .select select{
+        background-color: white;
+        color: black;
+        border: 1px solid rgb(193, 191, 191);
+        border-radius: 3px;
+        margin-bottom: 10px;
+        font-size: 14px;
+    }
+    .name div{
+        margin-bottom: 10px;
+    }
+    .right{
+        display: inline;
+      }
+}
+@media (min-width:768px) and (max-width:992px){
+.nav-right i{
+    display: none;
+}  
+.nav-right{
+    width: 20%;
+    display: inline;
+    text-align: end;
+    padding-right: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+   
+    
+}
+.nav-right div{
+    margin-bottom: 10px;
+   }
+.nav-content{
+   
+    display: flex;
+    justify-content: end;
+    background-color: white;
+    
+    
+}  
+.navbar-search {
+    display: none;
+    
+}
+.select select{
+    background-color: white;
+    color: black;
+    border: 1px solid rgb(193, 191, 191);
+    border-radius: 3px;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+.name div{
+    margin-bottom: 10px;
+}
+.name{
+    display: inline;
+    color: black;
+}
+.right{
+    display: inline;
+  }
+
+}
