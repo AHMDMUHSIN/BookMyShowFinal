@@ -32,7 +32,7 @@ async function getDetails(){
                           </div>
                           <div class="languages">
                              <div><button>2D,IMAX</button></div>
-                             <div><button>English</button></div>
+                             <div><button>${data.Languages}</button></div>
                           </div>
                           <div class="genere">
                             <div>2h 44m </div>
